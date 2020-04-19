@@ -1,0 +1,19 @@
+#div1 {
+    margin-top: 20px;    
+}
+
+#div2 {
+    margin-top: 30px;
+}
+
+#div3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
