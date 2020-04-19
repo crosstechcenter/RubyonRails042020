@@ -1,0 +1,10 @@
+div {
+    color: cadetblue;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
