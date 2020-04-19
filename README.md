@@ -45,7 +45,7 @@ Vi du
 2. Vào trong thư mục `Submit_Exercies`, Chọn thư mục bài tập tương ứng ví dụ `lesson_02`
 3. Tạo thư mục con tương ứng với tên của bạn `Khoa_Nguyen`
 4. Làm bài tập trong thư mục mới, sau khi làm xong commit lại.
-5. Vào tab `Pull request`. Bấm vào nút `New Pull Request`. Tạo pull request cho nhánh của mình
+5. Vào tab `Pull request`. Bấm vào nút `New Pull Request`. Tạo pull request cho nhánh của mình với tiêu đề theo format bên dưới
 ```
 [Số khoá học][submit_exercies] - <Tên Học Viên> - <Tên bài tập>
 
@@ -53,7 +53,7 @@ Vi du
 [K000][submit_exercies] - Khoa Nguyễn - Lesson 01 - Exercise 01
 
 ```
-
+6. Nhấn `Create pull request` để hoàn tất.
 
 
 ## V. Sách tham khảo
