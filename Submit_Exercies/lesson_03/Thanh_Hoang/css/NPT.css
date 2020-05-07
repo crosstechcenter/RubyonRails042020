@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.img{
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.tencasi{
+    text-align: center;
+    color: rgb(10, 167, 18);
+    text-shadow: darkgreen;
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10pt;
+}
+
+.thongtincasi{
+    display: block;
+    text-align: center;
+}
+
+.thongtincanhan{
+    color: darkblue;
+    font-size: 1.5vw;
+}
+
+.title-thongtin{
+    padding: 5pt 5pt;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+    color: orangered;
+    background-color: lightgreen;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+}
+
+.block1{
+    padding-left: 40pt;
+    padding: 10pt 10pt;
+    width: 50%;
+}
+
+.block2{
+    padding-right: 40pt;
+    padding: 10pt 10pt;
+    width: 50%;
+}
+
+.contents{
+    padding-top: 10pt;
+}
+
+.title-year{
+    padding-top: 10pt;
+    color: violet;
+    font-size: 1.25vw;
+}
+
+.content{
+    color: darkblue;
+    font-size: 1.25vw;
+}

@@ -1,0 +1,43 @@
+h3{
+    color: green;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-size: 3vw;
+}
+img{
+    width: 80%;
+    height: auto;
+    padding-left: 15%;
+    margin-right: auto;
+    
+}
+.carousel-inner img {
+    display: inline;
+    max-width: 80%;
+    padding-left: 15%;
+    margin-right: auto;
+
+}
+p{
+    color: darkblue;
+    font-size: 1.5vw;
+}
+.content{
+display: inline-block;
+width: 80%;
+height: auto;
+margin-left: 10%;
+margin-right: 10%;
+align-items: center;
+}
+.daudong
+{
+    font-size: 2.25vw;
+    padding-left: 3%;
+}
+span{
+    color: green;
+    text-align: left;
+    padding-left: 3%;
+    font-size: 1.75vw;
+}
