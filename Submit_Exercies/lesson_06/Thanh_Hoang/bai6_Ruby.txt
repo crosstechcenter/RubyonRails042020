@@ -1,0 +1,77 @@
+﻿Câu 2: Kết thừa trong Ruby
+   - Cú pháp kế thừa :
+	+ Đơn kế thừa: 
+		class B < A end
+	B là tên class con, A là class cha
+	+ Đa kế thừa: Ruby không cho phép 1 lớp kế thừa nhiều lớp 
+	      
+Câu 3: Phân biệt cách sử dụng và scope của public, private, protected:
+
+    - Scope:
+	+ public: có thể sử dụng bởi các đối tượng thuộc lớp, đối tượng thuộc lớp kế thừa và có thể gọi ở ngoài lớp (hàm main, class khác có khai báo đối tượng thuộc lớp đó, ...)
+	+ protected: được sử dụng bởi các đối tượng thuộc lớp, đối tượng thuộc lớp kế thừa và được gọi trong lớp kế thừa và lớp đó.
+	+ private: được sử dụng nội bộ trong lớp đó
+     
+    - cách sử dụng: đặt trước kiểu dữ liệu trả về của phương thức, kiểu dữ liệu của biến hoặc từ khóa 'class' đối với lớp
+	+ public: thường dùng cho class, các phương thức trong class
+	+ protected: dùng cho một số phương thức, thuộc tính sử dụng nội bộ class và class kế thừa
+	+ private: thông thường được dùng cho thuộc tính
+
+Câu 4:
+    - Ruby dùng cơ chế Mix-in để mix-in các module lại, điều này giúp Ruby giải quyết vấn đề đa kế thừa.
+    - Cú pháp khai báo Module:
+
+ 	module <tên module>
+	  def <tên phương thức>
+	    // code xử lý
+	  end 
+	end
+  
+	vd:   
+	module sayhello
+	   def hello
+		puts "Hello!"
+	   end
+	end
+ 
+    - cách sử dụng:
+	+ Mixin: sử dụng từ khóa 'include'
+	    class <tên class>
+		include <tên module>
+	    end
+		    	
+	Thứ tự tìm kiếm method: tìm kiếm theo tứ tự include từ dưới lên, include sau sẽ được tìm kiếm trước
+	vd:
+	      class A
+		include/extend B
+		include/extend C
+	      end
+	A là class con, B và C là 2 module cha
+	+ Giả sử trong module B có phương thức 
+
+	def chao
+		puts "Hi" n
+	end
+
+	và module C có phương thức 
+
+	def chao
+		puts "Hello"
+	end
+
+   	thì khi đối tượng a thuộc class A gọi phương thức 'chao' sẽ cho kết quả là 'Hello'
+
+    	Sự khác nhau giữa extend và include:
+	   include: mixes các method ở module như là instance method trong class.(sử dụng thông qua đối tượng thuộc 		lớp)
+	   extend: mixes các method ở module như là class method trong class.( gọi bằng class.tên module)
+	+ module function: trong tên của method thêm self. phía trc
+	  khi gọi sẽ dùng lớp để gọi trực tiếp
+	module sayhello
+	   def self.hello
+		puts "Hello!"
+	   end
+	end
+	gọi method: sayhello.hello
+	
+ 
+	
