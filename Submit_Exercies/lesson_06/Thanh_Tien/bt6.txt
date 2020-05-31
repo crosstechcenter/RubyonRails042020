@@ -1,0 +1,36 @@
+Câu 2: Các cách k? th?a trong Ruby
++Ðon k? th?a
++Ða k?t th?a Ruby không h? tr?
+
+Câu 3: Phân bi?t du?c cách s? d?ng và scope c?a public, private, protected trong Ruby.
++Public: g?i ? dâu cung du?c ch? c?n d?m b?o dã include cái class.
++Protected: g?i ? chính class khai báo nó, ngoài ra còn có th? g?i ? các l?p k? th?a class khai báo phuong th?c này.
++Private: g?i ? chính class mà nó du?c khai báo.
+
+Câu 4:
+-Ruby dùng co ch? Mix-in d? mix-in các module l?i, di?u này giúp Ruby gi?i quy?t v?n d? da k? th?a.
+- Cú pháp khai báo Module:
+
+ 	module <tên module>
+	  def <tên phuong th?c>
+	    // code x? lý
+	  end 
+	end
+
+    - cách s? d?ng:
+	+ Mixin: s? d?ng t? khóa 'include'
+	    class <tên class>
+		include <tên module>
+	    end
+
+	Th? t? tìm ki?m method: tìm ki?m theo t? t? include t? du?i lên, include sau s? du?c tìm ki?m tru?c
+	vd:
+	      class A
+		include/extend B
+		include/extend C
+	      end
+	A là class con, B và C là 2 module cha
+	+ Gi? s? trong module B có phuong th?c 
+
+
+ 
