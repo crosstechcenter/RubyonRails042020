@@ -19,6 +19,8 @@ Giáo trình dạy Ruby on Rails cho sinh viên IT trong 48h (24 buổi, mỗi b
 - [Buổi 8: Giới thiệu về Ruby on Rails framework. Mô hình MVC và API. Các thành phần quan trọng trong Rails](./Lessons/Basic/lesson_08/lesson.md)
 - [Buổi 9: Giới thiệu module C - Controller trong MVC.](./Lessons/Basic/lesson_09/lesson.md)
 - [Buổi 10: Giới thiệu module V - View trong MVC.](./Lessons/Basic/lesson_10/lesson.md)
+- [Buổi 11: Giới thiệu module M - Model trong MVC.](./Lessons/Basic/lesson_11/lesson.md)
+- [Buổi 12: Bài tập lớn.](./Lessons/Basic/lesson_12/lesson.md)
 
 
 ## II. Yêu cầu khi học
