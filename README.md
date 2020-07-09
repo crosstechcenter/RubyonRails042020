@@ -1,6 +1,6 @@
 # Mô tả Project
 
-Giáo trình dạy Ruby on Rails cho sinh viên IT trong 48h (24 buổi, mỗi buổi 2h). Mục tiêu để các bạn học có thể hiểu và sử dụng Ruby on Rails ở mức cơ bản.
+Giáo trình dạy Ruby on Rails cho sinh viên IT trong 12 buổi, mỗi buổi 3h. Mục tiêu để các bạn học có thể hiểu và sử dụng Ruby on Rails ở mức cơ bản.
 
 > * **Huy Đỗ** - *Người tạo giáo trình* - [huydo91@outlook.com](mailto:huydo91@outlook.com)
 
